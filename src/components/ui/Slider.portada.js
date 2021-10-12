@@ -89,9 +89,44 @@ export const SliderPortada = () => {
             <div className="col-lg-5  d-flex align-items-center justify-content-end">
               <span><a href=".">ver más <img src="/assets/view.png" alt="" /></a></span>
             </div>
+            <div className="col-lg-12">
+            <div class="owl-carousel owl-theme">
+                  <div class="item"><h4>1</h4></div>
+                  <div class="item"><h4>2</h4></div>
+                  <div class="item"><h4>3</h4></div>
+                  <div class="item"><h4>4</h4></div>
+                  <div class="item"><h4>5</h4></div>
+                  <div class="item"><h4>6</h4></div>
+                  <div class="item"><h4>7</h4></div>
+                  <div class="item"><h4>8</h4></div>
+                  <div class="item"><h4>9</h4></div>
+                  <div class="item"><h4>10</h4></div>
+                  <div class="item"><h4>11</h4></div>
+                  <div class="item"><h4>12</h4></div>
+              </div>
+            </div>
+                       
           </div>
         </div>
       </div>
+
+      <div className="banner">
+        <div className="container">
+          <div className="row">
+              <div className="col-lg-11 offset-lg-1">
+                 <div className="banner__titulo">
+                    <h2><span>Bienvenido</span> <br/> Socio Cineplanet</h2>
+                    <div className="pregunta">
+                      <h4>Estas listo para vivir las más grande experiencia
+                      y disfrutar los mejores beneficios?</h4>
+                      <p>Socio Cineplanet  es el programa que esperabas</p>
+                    </div>
+                 </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
 
     </>
   );
