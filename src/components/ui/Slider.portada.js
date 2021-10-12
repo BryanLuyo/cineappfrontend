@@ -33,11 +33,13 @@ export const SliderPortada = () => {
           <div className="carousel-item active">
             <img src="/assets/slider1.jpg" className="" alt="..." />
             <div className="carousel-caption d-none d-md-block">
+              <small>Estreno</small>
               <h5><span>Rock Dog 2</span> Renace <br /> una estrella</h5>
               <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
               </p> 
+              <a className="btn btn__rojo">Comprar</a>
             </div>
           </div>
           <div className="carousel-item">
@@ -89,10 +91,10 @@ export const SliderPortada = () => {
             <div className="col-lg-5  d-flex align-items-center justify-content-end">
               <span><a href=".">ver más <img src="/assets/view.png" alt="" /></a></span>
             </div>
-            <div className="col-lg-12">
-            <div className="owl-carousel owl-theme">
-                  <div className="item"><h4>1</h4></div>
-                  <div className="item"><h4>2</h4></div>                  
+            <div className="col">
+              <div className="estreno__item"> 
+              <div className="estreno__item__foto"></div>
+                <div className="estreno__item__hover"></div>
               </div>
             </div>
                        
