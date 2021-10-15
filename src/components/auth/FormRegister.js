@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Register = () => {
+export const FormRegister = () => {
   return (
     <>
       <div className="auth__content">

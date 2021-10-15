@@ -2,13 +2,12 @@
 import React,{ useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { sining } from "../../services/auth/login";
-import cargando from "../precarga/cargando";
 
 //alertify 
 
 import * as alertify from 'alertifyjs';
 
-export const Login = () => {
+export const FormLogin = () => {
   const txt_user = useRef();
   const txt_password = useRef();
 

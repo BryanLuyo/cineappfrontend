@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <div>
@@ -7,29 +7,42 @@ export const Header = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-2">
-              <img src="/logo.png" alt="" />
+              
+            <Link to="/">
+            <img src="/logo.png" alt="" />
+            </Link>
+              
+              
             </div>
             <div className="col-lg-10 d-flex align-items-center justify-content-end">
               <div className="header__item header__item--1">
                 <ul>
                   <li>
-                    <a href="·">Peliculas</a>
+                    <Link to="/peliculas">
+                    Peliculas
+                    </Link>
                   </li>
                   <li>
-                    <a href=".">Cines</a>
+                    <Link to="/cines">
+                    cines
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="header__item header__item--2">
                 <ul>
-                  <li>
+
+                
+                  {/* <li>
                     <a href=".">
                       <img src="/assets/lupa.png" alt="" />
                     </a>
-                  </li>
+                  </li>*/}
                   <li>
                     <a href=".">
-                      <img src="/assets/user.png" alt="" />
+                    <Link to="/auth/login">
+                       <img src="/assets/user.png" alt="" />
+                    </Link>    
                     </a>
                   </li>
                 </ul>

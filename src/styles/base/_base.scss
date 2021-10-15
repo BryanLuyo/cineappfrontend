@@ -53,6 +53,9 @@ main {
     &-item{
         height: 808px;
         position: relative;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
         &:before{
             content: "";
             width: 100%;
